@@ -1100,6 +1100,75 @@
 			}
 		}
 	}
+    
+    "ReloadHUDButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ReloadHUDButton"
+		"xpos"			"85"
+		"ypos"			"315"
+		"zpos"			"1"
+		"wide"			"30"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"NotButton_BG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"NotButton_BG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"25 25 25 255"
+			"border"		"CyanBorderThick"
+		}
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"30"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"Sosa Regular"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+            "command"       "engine rth"
+            "labelText"		"y"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"image_drawcolor"	"230 230 230 255"
+			"image_armedcolor"	"255 255 255 255"
+			
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"MenuMouseover"
+			"depressedFgColor_override"	"MenuMouseover"	
+		}
+    }
 	
 	"WatchStreamButton1"
 	{
